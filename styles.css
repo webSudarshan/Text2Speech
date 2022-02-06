@@ -2,10 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 .bg-container {
-    background-color: #282828;
     text-align: center;
-    background-size: cover;
-    background-repeat: repeat;
+}
+
+body {
+    background-color: #282828;
 }
 
 #textInput {
