@@ -1,4 +1,4 @@
-const synth = speechSynthesis;
+const synth = window.speechSynthesis;
 
 const formEl = document.getElementById('form');
 const textInputEl = document.getElementById('textInput');
