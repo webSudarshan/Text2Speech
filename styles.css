@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-.bg-container {
-    background-color: #282828;
-    text-align: center;
-    background-size: cover;
-    background-repeat: repeat;
+body {
+    background-color: black;
+}
+.bg-gif {
+    background-image: url(images/animated-sound-waves.gif);
+    background-repeat: repeat-x;
+    background-position: center;
+    
 }
 
 #textInput {
