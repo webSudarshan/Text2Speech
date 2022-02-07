@@ -23,9 +23,8 @@ const getVoices = () => {
 }
 
 getVoices();
-if (synth.onvoiceschanged !== undefined) {
-    synth.onvoiceschanged = getVoices;
-}
+synth.onvoiceschanged = () => getVoices();
+
 
 const speak = () => {
 
