@@ -62,6 +62,9 @@ const speak = () => {
     
         synth.speak(speakText);
     }
+    else if (textInputEl.value === "") {
+        alert('Please Enter Text')
+    }
 };
 
 formEl.addEventListener('submit', e => {
